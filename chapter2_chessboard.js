@@ -14,7 +14,7 @@
 
 
 // My Solution:
-chessboard = (num) => {
+chessboard = num => {
     let output = ""
     for (i=1; i<=num; i++) {
       for (j=1; j<=num; j++) {
@@ -27,4 +27,4 @@ chessboard = (num) => {
       output += "\n"
     }
     console.log(output)
-  }
+}
